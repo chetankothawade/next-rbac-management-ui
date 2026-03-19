@@ -1,0 +1,111 @@
+{
+  "user": {
+    "create_title": "Create User",
+    "edit_title": "Edit User",
+    "view_title": "View User",
+    "list_title": "Users",
+    "profile_title": "Profile"
+  },
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "create": "Create",
+    "edit": "Edit",
+    "view": "View"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "status": "Status",
+    "role": "Role",
+    "link_client": "Link Client to User"
+  },
+  "placeholder": {
+    "name": "Enter name",
+    "email": "Enter email",
+    "phone": "Enter phone",
+    "password": "Enter password",
+    "new_password": "Enter new password",
+    "confirm_password": "Confirm password",
+    "select": "-- Select --",
+    "search": "Search for..."
+  },
+  "validation": {
+    "name_required": "Name is required",
+    "email_required": "Email is required",
+    "email_invalid": "Invalid email format",
+    "phone_required": "Phone number is required",
+    "phone_invalid": "Phone must be 10 digits",
+    "password_required": "Password is required",
+    "password_pattern": "Password must be 8+ chars with upper/lower/digit",
+    "confirm_password_required": "Please confirm your password",
+    "password_mismatch": "Passwords do not match",
+    "status_required": "Status is required",
+    "role_required": "Role is required"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "role": {
+    "admin": "Admin",
+    "editor": "Editor"
+  },
+  "table": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "role": "Role",
+    "status": "Status",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "last_login_at": "Last Login At",
+    "last_login_ip": "Last Login IP",
+    "action": "Action"
+  },
+  "button": {
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "save_changes": "Save Changes",
+    "cancel": "Cancel",
+    "change_password": "Change Password",
+    "cancel_password_change": "Cancel Password Change",
+    "back_to_list": "Back to List",
+    "add_user": "Add User"
+  },
+  "tooltip": {
+    "link_client": "Use this for creating invoices to send billing payment details to other clients.",
+    "view": "View User",
+    "edit": "Edit User",
+    "delete": "Delete User",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "module_permission": "Module Permissions"
+  },
+  "swal": {
+    "confirm_title": "Are you sure?",
+    "delete_text": "This action cannot be undone!",
+    "confirm_delete": "Yes, delete!",
+    "confirm": "Yes",
+    "status_text": "Mark user as {{status}}?"
+  },
+  "toast": {
+    "user_created": "User created successfully",
+    "user_updated": "User updated successfully",
+    "user_deleted": "User deleted successfully",
+    "user_not_found": "User data not found",
+    "fetch_client_error": "Failed to fetch client data",
+    "fetch_failed": "Failed to fetch data",
+    "delete_failed": "Failed to delete user",
+    "status_updated": "User marked as {{status}}",
+    "status_failed": "Failed to update status"
+  },
+  "common": {
+    "na": "N/A",
+    "no_data": "No user data available."
+  }
+}

@@ -1,0 +1,22 @@
+"use client";
+
+import { useSelector } from "react-redux";
+
+import Loader from "@/src/components/Loader";
+import { PublicRoute } from "@/src/components/PublicRoute";
+
+export default function ClientPublicPage({ children }) {
+  const { user, loading } = useSelector((state) => state.auth);
+
+  if (loading) {
+    return <Loader />;
+  }
+
+  return (
+    <PublicRoute
+      isAuthenticated={Boolean(user?.token)}
+      redirectTo="/client/dashboard"
+      element={children}
+    />
+  );
+}

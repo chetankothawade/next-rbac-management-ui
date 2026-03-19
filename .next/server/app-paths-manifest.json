@@ -1,0 +1,6 @@
+{
+  "/module/permission/page": "app/module/permission/page.js",
+  "/user/page": "app/user/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/module/page": "app/module/page.js"
+}

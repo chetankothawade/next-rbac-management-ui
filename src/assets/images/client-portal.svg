@@ -1,0 +1,44 @@
+<svg width="820" height="600" viewBox="0 0 820 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="820" height="600" rx="28" fill="#F7FAFC"/>
+
+<!-- TITLE -->
+<text x="150" y="95" font-size="30" fill="#00A3E0" font-weight="bold" font-family="Arial, sans-serif">
+Invoice Manager
+</text>
+
+<!-- MAIN DASHBOARD CARD -->
+<rect x="120" y="120" width="560" height="360" rx="22"
+  fill="white" stroke="#D4E3F7" stroke-width="3"/>
+
+<!-- TOP HEADER STRIP -->
+<rect x="150" y="150" width="200" height="26" rx="6" fill="#00A3E0"/>
+<rect x="360" y="150" width="120" height="26" rx="6" fill="#E3F5FD"/>
+
+<!-- CONTENT LINES -->
+<rect x="150" y="205" width="390" height="18" rx="4" fill="#57B447" opacity="0.25"/>
+<rect x="150" y="235" width="430" height="18" rx="4" fill="#F4C245" opacity="0.25"/>
+<rect x="150" y="265" width="350" height="18" rx="4" fill="#E77C25" opacity="0.25"/>
+
+<!-- LEFT PANEL BOX -->
+<rect x="150" y="315" width="260" height="150" rx="16"
+  fill="#F4C245" opacity="0.35"/>
+
+<!-- RIGHT TOP SMALL CARD -->
+<rect x="440" y="315" width="180" height="60" rx="14"
+  fill="#57B447" opacity="0.35"/>
+
+<!-- RIGHT BOTTOM SMALL CARD -->
+<rect x="440" y="395" width="180" height="60" rx="14"
+  fill="#E77C25" opacity="0.35"/>
+
+<!-- ACCENT CIRCLE -->
+<circle cx="680" cy="150" r="48"
+  fill="#00A3E0" opacity="0.15"/>
+
+<!-- X ICON IN CIRCLE (BRAND RED) -->
+<path d="M660 135L700 175M700 135L660 175"
+  stroke="#D64C45" stroke-width="6" stroke-linecap="round"/>
+
+</svg>

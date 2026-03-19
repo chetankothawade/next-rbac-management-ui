@@ -1,6 +1,8 @@
 import "../src/index.css";
 
+import LayoutRootState from "@/components/layout/LayoutRootState";
 import AppProviders from "@/components/providers/AppProviders";
+import { DEFAULT_LAYOUT_ATTRIBUTES } from "@/src/lib/layoutAttributes";
 
 export const metadata = {
   title: "NACK",
@@ -9,13 +11,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html suppressHydrationWarning lang="en" data-layout="vertical" data-topbar="light" data-sidebar="light" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+    <html suppressHydrationWarning lang="en" {...DEFAULT_LAYOUT_ATTRIBUTES}>
       <head>
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/icons.min.css" />
         <link rel="stylesheet" href="/assets/css/app.min.css" />
       </head>
       <body suppressHydrationWarning>
+        <LayoutRootState />
         <AppProviders>{children}</AppProviders>
       </body>
     </html>

@@ -3,6 +3,8 @@
 import AdminPrivatePage from "./AdminPrivatePage";
 import ProtectedRoute from "@/src/components/ProtectedRoute";
 
+// UI-only admin guard. This controls client rendering and redirects,
+// but backend endpoints must enforce the same access rules independently.
 export default function AdminProtectedPage({
   children,
   module,
